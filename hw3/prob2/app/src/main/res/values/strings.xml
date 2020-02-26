@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hw3-Prob2</string>
+    <string name="lb_sign_in">Sign in to your account</string>
+    <string name="lb_pass">Password(required)</string>
+    <string name="lb_mail">Email (required)</string>
+    <string name="lb_forget">Forget Password</string>
+    <string name="lb_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+</resources>
