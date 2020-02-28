@@ -6,4 +6,18 @@
     <string name="lb_forget">Forget Password</string>
     <string name="lb_account">Don\'t have an account?</string>
     <string name="sign_up">Sign up</string>
+    <string name="lb_shop_cate">Shop by categories</string>
+    <string name="lb_elect">Electronic</string>
+    <string name="lb_clothes">Clothing</string>
+    <string name="lb_beauty">Beauty</string>
+    <string name="lb_food">Food</string>
+    <string name="lb_create_account">Create your account</string>
+    <string name="lb_required">* required field</string>
+    <string name="lb_first_name">First Name*</string>
+    <string name="hint_firstName">enter your first name</string>
+    <string name="lb_last">Last name*</string>
+    <string name="hint_last">enter your last name</string>
+    <string name="hint_mail">enter your email</string>
+    <string name="hint_pass">enter your password</string>
+    <string name="welcome">Welcome</string>
 </resources>
