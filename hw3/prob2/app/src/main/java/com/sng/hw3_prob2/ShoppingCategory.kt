@@ -1,5 +1,6 @@
 package com.sng.hw3_prob2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -15,10 +16,12 @@ class ShoppingCategory : AppCompatActivity() {
             Toast.makeText(this, "You have chosen beauty", Toast.LENGTH_LONG).show()
         }
         lnClothing.setOnClickListener {
-            Toast.makeText(this, "You have chosen Clothing", Toast.LENGTH_LONG).show()
+            val i = Intent(this, ListActivity::class.java)
+            startActivity(i)
         }
         lnElect.setOnClickListener {
-            Toast.makeText(this, "You have chosen Elect", Toast.LENGTH_LONG).show()
+            val i = Intent(this, RvActivity::class.java)
+            startActivity(i)
         }
         lnFood.setOnClickListener {
             Toast.makeText(this, "You have chosen Food", Toast.LENGTH_LONG).show()
